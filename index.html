@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
+    />
+    <style>
+      body {
+        animation: slidFadeIn ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      form {
+        animation: slideTop ease 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        opacity: 0;
+      }
+
+      @keyframes slidFadeIn {
+        0% {
+          opacity: 0;
+          transform: translate3d(400px, 0, 0);
+        }
+        100% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      @keyframes slideTop {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 400px, 0);
+        }
+        100% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    </style>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>"
+    />
+    <title>Shivom Srivastava - Full Stack Developer</title>
+    <meta name="title" content="Shivom Srivastava - Full Stack Developer" />
+    <meta
+      name="description"
+      content="Hello. I'm a full stack developer from Delhi, India. I work with the MERN stack. I love art, design & programming. "
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta
+      property="og:title"
+      content="Shivom Srivastava - Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="Hello. I'm a full stack developer from Delhi, India. I work with the MERN stack. I love art, design & programming. "
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="Shivom Srivastava - Full Stack Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="Hello. I'm a full stack developer from Delhi, India. I work with the MERN stack. I love art, design & programming. "
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+  </head>
+  <body>
+    <h1>Shivom Srivastava</h1>
+    <h2>👋 Hi. I messed up my main website.</h2>
+    <p>Funny sus amongus full stack developer from Delhi, India.</p>
+    <p>
+      The amongus joke was a reference to the hit game amongus
+      <span style="color: rgb(228, 50, 86); font-size: 32px; line-height: 10px"
+        >ඞ</span
+      >.
+    </p>
+    <p>
+      I work with the MERN stack.
+      <u> Checkout my projects on my GitHub profile. </u>
+    </p>
+    <a href="https://github.com/guchii" target="_blank" rel="noreferrer">
+      <button>GitHub</button>
+    </a>
+    <a href="https://instagram.com/guchi.xd" target="_blank" rel="noreferrer">
+      <button>Instagram</button>
+    </a>
+    <form
+      action="https://formsubmit.co/shvomsrivastava@gmail.com"
+      method="POST"
+    >
+      <!-- Yes I am keeping an h2 inside a form -->
+      <h2>Contact Me</h2>
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="Sasuke Uchiha"
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="uchiha.sasuke@mail.com"
+      />
+      <label for="message">Your Message</label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="2"
+        placeholder="Kimi Dayo Kimi Nan Dayo"
+      ></textarea>
+      <input type="hidden" name="_next" value="https://shivom.me/thanks" />
+      <input type="hidden" name="_subject" value="New submission!" />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
